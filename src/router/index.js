@@ -8,26 +8,13 @@ import Goods from '@/view/goods'
 Vue.use(Router)
 
 export default new Router({
-  routes: [
-    {
-      path: '/test',
-      name: 'test',
-      component: Test,
-      children: [
-        {
-          path: 'title1',
-          name: 'title1',
-          component: Title1},
-        {
-          path: 'title2',
-          name: 'title2',
-          component: Title2
-        }]
-    },
-    {
-      path:'/goods',
-      name:'goods',
-      component:Goods
-    }
-  ]
+  routes: [{
+      path:'/',
+      name:'/',
+      components:{
+        default:Goods,
+        title1:Title1,
+        title2:Title2
+      }
+    }]
 })

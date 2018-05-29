@@ -12,7 +12,7 @@ export default new Router({
       path:'/',
       name:'/',
       components:{
-        default:Goods,
+        goods:Goods,
         title1:Title1,
         title2:Title2
       }

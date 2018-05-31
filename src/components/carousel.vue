@@ -5,9 +5,8 @@
     <swiper-slide class="swiper_item"><img src="../../static/carousel3.png" /></swiper-slide>
     <swiper-slide  class="swiper_item"><img src="../../static/carousel1.png" /></swiper-slide>
     <swiper-slide  class="swiper_item"><img src="../../static/carousel2.png" /></swiper-slide>
-
+    
     <div class="swiper-pagination"  slot="pagination"></div>
-
     </swiper>
   </div>
 </template>
